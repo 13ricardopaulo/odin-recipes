@@ -1,16 +1,20 @@
 /* GENERAL STYLES */
 html {
-    background-color: #8a8a8a;
+    background-color: #ecce96;
 }
 
-body {
+.nav {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: whitesmoke;
     font-size: 18px;
     width: 85%;
     max-width: 1000px;
-    margin: 20px auto;
+    margin: 35px auto;
     border: 2px solid #333;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
 }
 
 h1 {
@@ -22,12 +26,14 @@ h1 {
 ul.navbar {
     text-align: center;
     list-style-type: none;
-    padding: 0.5rem;
     border-top: 2px solid #333;
 }
 
 li {
-    padding: 0.25rem;
+    padding-top: 1rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    display: inline-block;
 }
 
 li a {
