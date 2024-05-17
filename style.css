@@ -1,8 +1,16 @@
 /* GENERAL STYLES */
+html {
+    background-color: #8a8a8a;
+}
 
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: whitesmoke;
+    font-size: 18px;
+    width: 85%;
+    max-width: 1000px;
+    margin: 20px auto;
+    border: 2px solid #333;
 }
 
 h1 {
@@ -11,7 +19,7 @@ h1 {
     font-size: 2.5rem;
 }
 
-ul {
+ul.navbar {
     text-align: center;
     list-style-type: none;
     padding: 0.5rem;
@@ -36,3 +44,16 @@ li a:hover, li a:focus {
     color: #8a8a8a;
 }
 
+/* RECIPE PAGES STYLES */
+
+img {
+    display: block;
+    margin: 50px auto;    
+    border-radius: 50%;
+}
+
+h2,
+h3,
+p {
+    padding: 0.5rem;
+}
